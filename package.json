@@ -11,6 +11,8 @@
     "test": "npx playwright test"
   },
   "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "axios": "^1.13.2",
     "next": "16.0.6",
     "react": "19.2.0",
     "react-dom": "19.2.0"
