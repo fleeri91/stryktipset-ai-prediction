@@ -1,7 +1,9 @@
+import { Team } from '@/server/constants/espn/types/Team'
+
 /**
  * League One Teams and ESPN ID's
  */
-export const LEAGUE_ONE_TEAMS = [
+export const LEAGUE_ONE_TEAMS: Team[] = [
   { id: 3802, name: 'AFC Wimbledon' },
   { id: 397, name: 'Barnsley' },
   { id: 346, name: 'Blackpool' },

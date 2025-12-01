@@ -1,7 +1,9 @@
+import { Team } from '@/server/constants/espn/types/Team'
+
 /**
  * League Two Teams and ESPN ID's
  */
-export const LEAGUE_TWO_TEAMS = [
+export const LEAGUE_TWO_TEAMS: Team[] = [
   { id: 2731, name: 'Accrington Stanley' },
   { id: 280, name: 'Barnet' },
   { id: 642, name: 'Barrow' },

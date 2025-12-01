@@ -1,8 +1,10 @@
+import { Team } from '@/server/constants/espn/types/Team'
+
 /**
  * All English Teams (Premier League, Championship, League One, League Two)
  * Sorted A–Z by name
  */
-export const ALL_ENGLISH_TEAMS = [
+export const ALL_ENGLISH_TEAMS: Team[] = [
   { id: 2731, name: 'Accrington Stanley' },
   { id: 349, name: 'AFC Bournemouth' },
   { id: 3802, name: 'AFC Wimbledon' },

@@ -1,7 +1,9 @@
+import { Team } from '@/server/constants/espn/types/Team'
+
 /**
  * Championship Teams and ESPN ID's
  */
-export const CHAMPIONSHIP_TEAMS = [
+export const CHAMPIONSHIP_TEAMS: Team[] = [
   { id: 392, name: 'Birmingham City' },
   { id: 365, name: 'Blackburn Rovers' },
   { id: 333, name: 'Bristol City' },

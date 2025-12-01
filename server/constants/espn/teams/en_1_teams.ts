@@ -1,7 +1,9 @@
+import { Team } from '@/server/constants/espn/types/Team'
+
 /**
  * Premier League Teams and ESPN ID's
  */
-export const PREMIER_LEAGUE_TEAMS = [
+export const PREMIER_LEAGUE_TEAMS: Team[] = [
   { id: 349, name: 'AFC Bournemouth' },
   { id: 359, name: 'Arsenal' },
   { id: 362, name: 'Aston Villa' },
