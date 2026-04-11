@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "prettier": "npx prettier . --write",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "model:clean": "rm -rf dist ml/model"
   },
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.22.0",
